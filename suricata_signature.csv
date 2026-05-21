@@ -1,0 +1,443 @@
+"alert_signature","occurrences"
+"GPL INFO VNC server response",320830
+"ET EXPLOIT [PTsecurity] DoublePulsar Backdoor installation communication",21197
+"ET DROP Dshield Block Listed Source group 1",9022
+"ET INFO HTTP Request on Unusual Port Possibly Hostile",6596
+"ET SCAN MS Terminal Server Traffic on Non-standard Port",4458
+"ET INFO SSH session in progress on Expected Port",4016
+"ET INFO Inbound HTTP CONNECT Attempt on Off-Port",3183
+"SURICATA STREAM ESTABLISHED packet out of window",2158
+"SURICATA STREAM Packet with invalid ack",1892
+"ET SCAN NMAP -sS window 1024",1814
+"SURICATA STREAM ESTABLISHED ack for ZWP data",1795
+"SURICATA STREAM ESTABLISHED invalid ack",1795
+"SURICATA STREAM FIN recv but no session",1663
+"ET INFO SSH session in progress on Unusual Port",1607
+"SURICATA SSH invalid banner",1555
+"ET HUNTING RDP Authentication Bypass Attempt",1417
+"ET WEB_SPECIFIC_APPS React Server Components React2Shell Unsafe Flight Protocol Property Access (CVE-2025-55182)",1386
+"ET HUNTING Javascript Prototype Pollution Attempt via __proto__ in HTTP Body",1386
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 35",1250
+"SURICATA STREAM Packet with broken ack",1240
+"SURICATA STREAM reassembly depth reached",1181
+"SURICATA STREAM RST recv but no session",1135
+"SURICATA STREAM spurious retransmission",996
+"ET WEB_SERVER /etc/passwd Detected in URI",875
+"ET INFO User-Agent (python-requests) Inbound to Webserver",700
+"SURICATA Applayer Detect protocol only one direction",696
+"ET INFO SSH-2.0-Go version string Observed in Network Traffic",691
+"SURICATA TLS invalid record type",680
+"ET INFO Reserved Internal IP Traffic",626
+"SURICATA Applayer Mismatch protocol both directions",597
+"ET INFO CURL User Agent",561
+"ET INFO NetBIOS nbtstat Type Query Inbound",527
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 7",441
+"ET SCAN Suspicious inbound to PostgreSQL port 5432",416
+"ET CINS Active Threat Intelligence Poor Reputation IP group 47",366
+"SURICATA TCPv4 invalid checksum",358
+"ET CINS Active Threat Intelligence Poor Reputation IP group 199",343
+"ET CINS Active Threat Intelligence Poor Reputation IP group 46",340
+"ET CINS Active Threat Intelligence Poor Reputation IP group 44",336
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 54",332
+"ET CINS Active Threat Intelligence Poor Reputation IP group 219",328
+"ET CINS Active Threat Intelligence Poor Reputation IP group 213",324
+"ET CINS Active Threat Intelligence Poor Reputation IP group 290",321
+"ET HUNTING ZIP file exfiltration over raw TCP",319
+"ET CINS Active Threat Intelligence Poor Reputation IP group 197",318
+"ET CINS Active Threat Intelligence Poor Reputation IP group 217",317
+"SURICATA HTTP Response excessive header repetition",316
+"ET CINS Active Threat Intelligence Poor Reputation IP group 51",315
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 4",314
+"ET CINS Active Threat Intelligence Poor Reputation IP group 218",309
+"ET CINS Active Threat Intelligence Poor Reputation IP group 220",302
+"ET CINS Active Threat Intelligence Poor Reputation IP group 119",294
+"GPL SNMP request udp",290
+"ET CINS Active Threat Intelligence Poor Reputation IP group 198",286
+"ET CINS Active Threat Intelligence Poor Reputation IP group 200",283
+"ET CINS Active Threat Intelligence Poor Reputation IP group 258",281
+"ET CINS Active Threat Intelligence Poor Reputation IP group 277",279
+"ET CINS Active Threat Intelligence Poor Reputation IP group 216",277
+"ET CINS Active Threat Intelligence Poor Reputation IP group 136",277
+"SURICATA STREAM FIN out of window",271
+"ET CINS Active Threat Intelligence Poor Reputation IP group 45",269
+"ET CINS Active Threat Intelligence Poor Reputation IP group 49",269
+"ET CINS Active Threat Intelligence Poor Reputation IP group 133",267
+"SURICATA STREAM FIN invalid ack",264
+"ET CINS Active Threat Intelligence Poor Reputation IP group 50",264
+"ET CINS Active Threat Intelligence Poor Reputation IP group 214",264
+"ET CINS Active Threat Intelligence Poor Reputation IP group 215",264
+"ET CINS Active Threat Intelligence Poor Reputation IP group 278",253
+"ET SCAN Suspicious inbound to MSSQL port 1433",252
+"ET CINS Active Threat Intelligence Poor Reputation IP group 129",248
+"ET CINS Active Threat Intelligence Poor Reputation IP group 276",243
+"ET CINS Active Threat Intelligence Poor Reputation IP group 140",240
+"ET CINS Active Threat Intelligence Poor Reputation IP group 48",239
+"ET CINS Active Threat Intelligence Poor Reputation IP group 291",237
+"ET SCAN Suspicious inbound to mySQL port 3306",234
+"ET CINS Active Threat Intelligence Poor Reputation IP group 118",234
+"GPL SNMP public access udp",232
+"ET CINS Active Threat Intelligence Poor Reputation IP group 138",231
+"ET CINS Active Threat Intelligence Poor Reputation IP group 137",227
+"ET CINS Active Threat Intelligence Poor Reputation IP group 139",222
+"SURICATA STREAM SHUTDOWN RST invalid ack",208
+"ET CINS Active Threat Intelligence Poor Reputation IP group 116",205
+"GPL INFO SOCKS Proxy attempt",202
+"ET CINS Active Threat Intelligence Poor Reputation IP group 16",201
+"ET CINS Active Threat Intelligence Poor Reputation IP group 135",199
+"ET CINS Active Threat Intelligence Poor Reputation IP group 3",193
+"ET CINS Active Threat Intelligence Poor Reputation IP group 124",190
+"SURICATA STREAM Packet with invalid timestamp",188
+"ET CINS Active Threat Intelligence Poor Reputation IP group 2",174
+"GPL FTP FTP anonymous login attempt",172
+"ET CINS Active Threat Intelligence Poor Reputation IP group 194",168
+"ET SCAN Zmap User-Agent (Inbound)",161
+"ET CINS Active Threat Intelligence Poor Reputation IP group 134",159
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 13",156
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 10",146
+"ET CINS Active Threat Intelligence Poor Reputation IP group 130",146
+"ET CINS Active Threat Intelligence Poor Reputation IP group 156",145
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 64",140
+"ET CINS Active Threat Intelligence Poor Reputation IP group 196",137
+"ET CINS Active Threat Intelligence Poor Reputation IP group 195",135
+"SURICATA STREAM FIN2 ack with wrong seq",130
+"ET CINS Active Threat Intelligence Poor Reputation IP group 126",130
+"ET INFO Go-http-client User-Agent Observed Inbound",126
+"ET CINS Active Threat Intelligence Poor Reputation IP group 132",121
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 42",120
+"ET CINS Active Threat Intelligence Poor Reputation IP group 17",117
+"ET WEB_SPECIFIC_APPS Shenzhen TVT NVMS-9000 Information Disclosure Attempt (CVE-2024-14007)",116
+"ET CINS Active Threat Intelligence Poor Reputation IP group 282",114
+"ET CINS Active Threat Intelligence Poor Reputation IP group 142",113
+"ET CINS Active Threat Intelligence Poor Reputation IP group 279",112
+"SURICATA HTTP unable to match response to request",108
+"ET CINS Active Threat Intelligence Poor Reputation IP group 242",104
+"SURICATA HTTP Request excessive header repetition",103
+"ET CINS Active Threat Intelligence Poor Reputation IP group 192",102
+"ET CINS Active Threat Intelligence Poor Reputation IP group 281",102
+"ET CINS Active Threat Intelligence Poor Reputation IP group 38",101
+"ET CINS Active Threat Intelligence Poor Reputation IP group 52",100
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 15",100
+"ET CINS Active Threat Intelligence Poor Reputation IP group 285",99
+"ET CINS Active Threat Intelligence Poor Reputation IP group 286",97
+"ET SCAN Suspicious inbound to Oracle SQL port 1521",94
+"ET CINS Active Threat Intelligence Poor Reputation IP group 131",94
+"ET CINS Active Threat Intelligence Poor Reputation IP group 229",94
+"ET INFO Potentially unsafe SMBv1 protocol in use",94
+"ET HUNTING Mozilla User-Agent (Mozilla/5.0) Inbound Likely Fake",93
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 25",91
+"GPL NETBIOS SMB-DS IPC$ unicode share access",91
+"ET CINS Active Threat Intelligence Poor Reputation IP group 65",90
+"SURICATA STREAM FIN2 invalid ack",86
+"ET CINS Active Threat Intelligence Poor Reputation IP group 109",85
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 11",84
+"ET CINS Active Threat Intelligence Poor Reputation IP group 69",83
+"ET CINS Active Threat Intelligence Poor Reputation IP group 110",83
+"ET CINS Active Threat Intelligence Poor Reputation IP group 230",82
+"ET CINS Active Threat Intelligence Poor Reputation IP group 68",81
+"SURICATA STREAM CLOSEWAIT FIN out of window",81
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 3",81
+"ET CINS Active Threat Intelligence Poor Reputation IP group 128",80
+"ET CINS Active Threat Intelligence Poor Reputation IP group 193",79
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 9",79
+"ET SCAN Sipvicious User-Agent Detected (friendly-scanner)",77
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 16",77
+"ET CINS Active Threat Intelligence Poor Reputation IP group 225",75
+"ET CINS Active Threat Intelligence Poor Reputation IP group 42",73
+"ET INFO GNU/Linux APT User-Agent Outbound likely related to package management",72
+"ET CINS Active Threat Intelligence Poor Reputation IP group 201",71
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 37",69
+"ET CINS Active Threat Intelligence Poor Reputation IP group 125",68
+"ET CINS Active Threat Intelligence Poor Reputation IP group 143",68
+"ET CINS Active Threat Intelligence Poor Reputation IP group 100",65
+"ET CINS Active Threat Intelligence Poor Reputation IP group 43",64
+"ET CINS Active Threat Intelligence Poor Reputation IP group 224",64
+"ET CINS Active Threat Intelligence Poor Reputation IP group 5",64
+"ET CINS Active Threat Intelligence Poor Reputation IP group 256",61
+"SURICATA STREAM ESTABLISHED SYN resend with different seq",61
+"ET COMPROMISED Known Compromised or Hostile Host Traffic group 13",60
+"SURICATA STREAM 3way handshake right seq wrong ack evasion",60
+"ET CINS Active Threat Intelligence Poor Reputation IP group 204",59
+"ET CINS Active Threat Intelligence Poor Reputation IP group 202",59
+"ET CINS Active Threat Intelligence Poor Reputation IP group 179",59
+"ET CINS Active Threat Intelligence Poor Reputation IP group 153",56
+"ET SCAN Sipvicious Scan",55
+"ET CINS Active Threat Intelligence Poor Reputation IP group 146",55
+"ET CINS Active Threat Intelligence Poor Reputation IP group 99",55
+"ET CINS Active Threat Intelligence Poor Reputation IP group 184",54
+"SURICATA STREAM reassembly sequence GAP -- missing packet(s)",53
+"SURICATA STREAM ESTABLISHED SYNACK resend with different ACK",53
+"ET INFO Authoritative Nameservers in DNS Query Response",52
+"ET CINS Active Threat Intelligence Poor Reputation IP group 150",52
+"ET CINS Active Threat Intelligence Poor Reputation IP group 141",52
+"ET CINS Active Threat Intelligence Poor Reputation IP group 157",51
+"ET CINS Active Threat Intelligence Poor Reputation IP group 144",51
+"ET EXPLOIT Possible Dovecot Memory Corruption Inbound (CVE-2019-11500)",50
+"SURICATA SMTP invalid reply",49
+"ET INFO Proxy CONNECT Request",48
+"SURICATA STREAM 3way handshake SYN resend different seq on SYN recv",48
+"ET CINS Active Threat Intelligence Poor Reputation IP group 35",48
+"ET CINS Active Threat Intelligence Poor Reputation IP group 206",47
+"ET CINS Active Threat Intelligence Poor Reputation IP group 241",47
+"ET WEB_SERVER WebShell Generic - wget http - POST",46
+"GPL TELNET Bad Login",46
+"ET SCAN Potential SSH Scan",45
+"SURICATA STREAM 3way handshake wrong seq wrong ack",43
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 32",42
+"ET EXPLOIT Apache ActiveMQ Remote Code Execution Attempt (CVE-2023-46604)",42
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 17",42
+"ET CINS Active Threat Intelligence Poor Reputation IP group 22",41
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 6",40
+"ET CINS Active Threat Intelligence Poor Reputation IP group 19",40
+"ET CINS Active Threat Intelligence Poor Reputation IP group 120",39
+"GPL NETBIOS SMB-DS IPC$ share access",38
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 30",37
+"ET CINS Active Threat Intelligence Poor Reputation IP group 223",36
+"ET CINS Active Threat Intelligence Poor Reputation IP group 254",36
+"ET CINS Active Threat Intelligence Poor Reputation IP group 26",36
+"ET INFO External Oracle T3 Requests Inbound",36
+"ET CINS Active Threat Intelligence Poor Reputation IP group 270",36
+"ET CINS Active Threat Intelligence Poor Reputation IP group 152",34
+"ET INFO Executable and linking format (ELF) file download",33
+"GPL INFO PPTP Start Control Request attempt",33
+"ET CINS Active Threat Intelligence Poor Reputation IP group 233",33
+"SURICATA STREAM 3way handshake SYNACK with wrong ack",33
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 43",33
+"ET CINS Active Threat Intelligence Poor Reputation IP group 62",33
+"ET CINS Active Threat Intelligence Poor Reputation IP group 178",32
+"ET WEB_SERVER Possible SQL Injection (exec) in HTTP Request Body",32
+"ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (MSF style)",31
+"ET CINS Active Threat Intelligence Poor Reputation IP group 8",31
+"ET CINS Active Threat Intelligence Poor Reputation IP group 183",31
+"ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (Generic Flags)",31
+"ET CINS Active Threat Intelligence Poor Reputation IP group 205",30
+"ET CINS Active Threat Intelligence Poor Reputation IP group 23",30
+"ET CINS Active Threat Intelligence Poor Reputation IP group 244",29
+"ET CINS Active Threat Intelligence Poor Reputation IP group 24",29
+"ET CINS Active Threat Intelligence Poor Reputation IP group 66",29
+"ET ATTACK_RESPONSE Possible MS CMD Shell opened on local system",29
+"ET INFO HTTP CONNECT Tunnel Attempt Inbound",29
+"ET CINS Active Threat Intelligence Poor Reputation IP group 11",29
+"ET CINS Active Threat Intelligence Poor Reputation IP group 247",28
+"ET CINS Active Threat Intelligence Poor Reputation IP group 207",28
+"ET CINS Active Threat Intelligence Poor Reputation IP group 70",27
+"ET CINS Active Threat Intelligence Poor Reputation IP group 186",27
+"ET CINS Active Threat Intelligence Poor Reputation IP group 81",27
+"ET CINS Active Threat Intelligence Poor Reputation IP group 83",27
+"ET CINS Active Threat Intelligence Poor Reputation IP group 145",26
+"GPL SNMP request tcp",26
+"ET CINS Active Threat Intelligence Poor Reputation IP group 90",26
+"ET CINS Active Threat Intelligence Poor Reputation IP group 212",26
+"SURICATA Applayer Wrong direction first Data",25
+"ET INFO ZIP file download",25
+"ET CINS Active Threat Intelligence Poor Reputation IP group 149",25
+"ET CINS Active Threat Intelligence Poor Reputation IP group 203",24
+"ET WEB_SERVER 401TRG Generic Webshell Request - POST with wget in body",24
+"ET CINS Active Threat Intelligence Poor Reputation IP group 240",23
+"ET CINS Active Threat Intelligence Poor Reputation IP group 20",22
+"ET CINS Active Threat Intelligence Poor Reputation IP group 32",22
+"ET INFO External Host Querying Erlang Port Mapper Daemon",22
+"ET INFO curl User-Agent Outbound",22
+"ET HUNTING curl User-Agent to Dotted Quad",22
+"ET CINS Active Threat Intelligence Poor Reputation IP group 232",22
+"ET CINS Active Threat Intelligence Poor Reputation IP group 29",21
+"ET CINS Active Threat Intelligence Poor Reputation IP group 15",21
+"ET CINS Active Threat Intelligence Poor Reputation IP group 181",21
+"ET CINS Active Threat Intelligence Poor Reputation IP group 253",21
+"ET CINS Active Threat Intelligence Poor Reputation IP group 115",21
+"ET CINS Active Threat Intelligence Poor Reputation IP group 239",21
+"ET CINS Active Threat Intelligence Poor Reputation IP group 37",20
+"ET CINS Active Threat Intelligence Poor Reputation IP group 89",20
+"GPL WEB_SERVER DELETE attempt",20
+"ET CINS Active Threat Intelligence Poor Reputation IP group 108",20
+"ET CINS Active Threat Intelligence Poor Reputation IP group 92",20
+"ET EXPLOIT XXL-Job RCE",20
+"ET CINS Active Threat Intelligence Poor Reputation IP group 96",19
+"ET EXPLOIT VNC Server Not Requiring Authentication (case 2)",19
+"ET INFO Request to Hidden Environment File - Inbound",19
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 38",19
+"ET INFO VNC Authentication Failure",19
+"ET CINS Active Threat Intelligence Poor Reputation IP group 30",19
+"ET CINS Active Threat Intelligence Poor Reputation IP group 77",19
+"ET CINS Active Threat Intelligence Poor Reputation IP group 21",19
+"ET CINS Active Threat Intelligence Poor Reputation IP group 266",18
+"GPL TFTP Get",18
+"ET CINS Active Threat Intelligence Poor Reputation IP group 34",18
+"ET CINS Active Threat Intelligence Poor Reputation IP group 61",18
+"ET CINS Active Threat Intelligence Poor Reputation IP group 175",18
+"ET INFO Possible IPMI 2.0 RAKP Remote SHA1 Password Hash Retrieval RAKP message 1 with default BMC usernames (Admin|root|Administrator|USERID)",18
+"ET CINS Active Threat Intelligence Poor Reputation IP group 28",17
+"GPL MISC UPnP service discover attempt",17
+"ET CINS Active Threat Intelligence Poor Reputation IP group 103",17
+"ET CINS Active Threat Intelligence Poor Reputation IP group 167",17
+"ET CINS Active Threat Intelligence Poor Reputation IP group 259",17
+"ET CINS Active Threat Intelligence Poor Reputation IP group 287",17
+"ET INFO IP Check Domain (whatismyip in HTTP Host)",16
+"ET CINS Active Threat Intelligence Poor Reputation IP group 177",16
+"ET CINS Active Threat Intelligence Poor Reputation IP group 80",16
+"ET CINS Active Threat Intelligence Poor Reputation IP group 147",15
+"ET WEB_SERVER /bin/sh In URI Possible Shell Command Execution Attempt",15
+"ET CINS Active Threat Intelligence Poor Reputation IP group 123",15
+"GPL DNS named version attempt",15
+"ET INFO PHP Xdebug Extension Query Parameter (XDEBUG_SESSION_START)",15
+"ET CINS Active Threat Intelligence Poor Reputation IP group 151",15
+"ET CINS Active Threat Intelligence Poor Reputation IP group 162",15
+"ET CINS Active Threat Intelligence Poor Reputation IP group 57",15
+"ET CINS Active Threat Intelligence Poor Reputation IP group 67",15
+"ET CINS Active Threat Intelligence Poor Reputation IP group 292",14
+"ET CINS Active Threat Intelligence Poor Reputation IP group 154",14
+"ET CINS Active Threat Intelligence Poor Reputation IP group 166",14
+"ET WEB_SPECIFIC_APPS Microhard Systems 3G/4G Cellular Ethernet and Serial Gateway - Default Credentials",14
+"ET CINS Active Threat Intelligence Poor Reputation IP group 187",14
+"ET CINS Active Threat Intelligence Poor Reputation IP group 284",14
+"ET CINS Active Threat Intelligence Poor Reputation IP group 243",14
+"ET CINS Active Threat Intelligence Poor Reputation IP group 87",13
+"ET CINS Active Threat Intelligence Poor Reputation IP group 210",13
+"ET CINS Active Threat Intelligence Poor Reputation IP group 280",13
+"ET CINS Active Threat Intelligence Poor Reputation IP group 95",13
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 5",13
+"ET CINS Active Threat Intelligence Poor Reputation IP group 7",13
+"ET SCAN Behavioral Unusually fast inbound Telnet Connections, Potential Scan or Brute Force",13
+"ET CINS Active Threat Intelligence Poor Reputation IP group 155",12
+"ET INFO Proxy GET Request",12
+"ET CINS Active Threat Intelligence Poor Reputation IP group 148",12
+"ET CINS Active Threat Intelligence Poor Reputation IP group 84",12
+"ET CINS Active Threat Intelligence Poor Reputation IP group 111",12
+"ET CINS Active Threat Intelligence Poor Reputation IP group 13",12
+"ET SCAN Laravel Debug Mode Information Disclosure Probe Inbound",12
+"ET CINS Active Threat Intelligence Poor Reputation IP group 222",12
+"ET SCAN Suspicious inbound to mSQL port 4333",12
+"ET CINS Active Threat Intelligence Poor Reputation IP group 33",12
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 14",12
+"GPL TFTP root directory",12
+"ET CINS Active Threat Intelligence Poor Reputation IP group 269",12
+"ET CINS Active Threat Intelligence Poor Reputation IP group 72",11
+"ET CINS Active Threat Intelligence Poor Reputation IP group 41",11
+"ET CINS Active Threat Intelligence Poor Reputation IP group 208",11
+"ET VOIP Modified Sipvicious Asterisk PBX User-Agent",11
+"ET CINS Active Threat Intelligence Poor Reputation IP group 169",11
+"SURICATA STREAM excessive retransmissions",11
+"ET WEB_SERVER Possible SQL Injection DELETE FROM in HTTP Request Body",10
+"GPL SNMP trap udp",10
+"ET CINS Active Threat Intelligence Poor Reputation IP group 176",10
+"ET CINS Active Threat Intelligence Poor Reputation IP group 288",10
+"ET CINS Active Threat Intelligence Poor Reputation IP group 75",10
+"ET CINS Active Threat Intelligence Poor Reputation IP group 39",10
+"ET CINS Active Threat Intelligence Poor Reputation IP group 1",10
+"ET CINS Active Threat Intelligence Poor Reputation IP group 165",10
+"ET CINS Active Threat Intelligence Poor Reputation IP group 221",10
+"ET CINS Active Threat Intelligence Poor Reputation IP group 248",10
+"ET CINS Active Threat Intelligence Poor Reputation IP group 79",9
+"ET CINS Active Threat Intelligence Poor Reputation IP group 107",9
+"ET CINS Active Threat Intelligence Poor Reputation IP group 94",9
+"ET WEB_SERVER /bin/bash In URI, Possible Shell Command Execution Attempt Within Web Exploit",9
+"ET CINS Active Threat Intelligence Poor Reputation IP group 293",9
+"ET CINS Active Threat Intelligence Poor Reputation IP group 180",9
+"ET HUNTING Suspicious Chmod Usage in URI (Inbound)",9
+"ET WEB_SERVER Possible HTTP 404 XSS Attempt (Local Source)",9
+"ET INFO Login Credentials Possibly Passed in POST Data",9
+"ET WEB_SPECIFIC_APPS MVPower CCTV DVR /shell JAWS Webserver Unauthenticated Remote Command Execution (CVE-2016-20016)",9
+"SURICATA STREAM SYN resend",9
+"ET CINS Active Threat Intelligence Poor Reputation IP group 226",9
+"ET CINS Active Threat Intelligence Poor Reputation IP group 12",9
+"ET EXPLOIT MVPower DVR Shell UCE",9
+"ET CINS Active Threat Intelligence Poor Reputation IP group 58",9
+"SURICATA HTTP missing Host header",8
+"SURICATA HTTP2 too long frame data",8
+"ET CINS Active Threat Intelligence Poor Reputation IP group 14",8
+"ET CINS Active Threat Intelligence Poor Reputation IP group 102",8
+"ET CINS Active Threat Intelligence Poor Reputation IP group 117",8
+"ET CINS Active Threat Intelligence Poor Reputation IP group 71",8
+"ET COMPROMISED Known Compromised or Hostile Host Traffic group 11",8
+"ET CINS Active Threat Intelligence Poor Reputation IP group 263",7
+"ET COMPROMISED Known Compromised or Hostile Host Traffic group 14",7
+"ET INFO Incoming Basic Auth Base64 HTTP Password detected unencrypted",7
+"ET CINS Active Threat Intelligence Poor Reputation IP group 36",7
+"ET WEB_SERVER Possible DD-WRT Metacharacter Injection Command Execution Attempt",7
+"ET WEB_SERVER ThinkPHP RCE Exploitation Attempt",6
+"ET INFO Apache Solr System Information Request",6
+"ET HUNTING Suspicious PHP Code in HTTP POST (Inbound)",6
+"ET INFO SOCKSv5 HTTP Proxy Inbound Request (Linux Source)",6
+"ET CINS Active Threat Intelligence Poor Reputation IP group 227",6
+"ET EXPLOIT RealVNC Authentication Bypass Attempt",6
+"ET EXPLOIT Realtek SDK - Command Execution/Backdoor Access Inbound (CVE-2021-35394)",6
+"ET WEB_SERVER allow_url_include PHP config option in uri",6
+"ET WEB_SERVER auto_prepend_file PHP config option in uri",6
+"ET WEB_SERVER Generic PHP Remote File Include",6
+"ET WEB_SERVER PHP.//Input in HTTP POST",6
+"ET WEB_SERVER PHP tags in HTTP POST",6
+"ET WEB_SPECIFIC_APPS PHP-CGI OS Command Injection (soft hyphen) (CVE-2024-4577)",6
+"ET WEB_SPECIFIC_APPS TVT language Command Injection Attempt (CVE-2025-34036)",6
+"GPL REMOTE_ACCESS PCAnywhere server response",6
+"GPL SQL ping attempt",6
+"SURICATA UDPv4 invalid checksum",6
+"ET CINS Active Threat Intelligence Poor Reputation IP group 82",6
+"ET CINS Active Threat Intelligence Poor Reputation IP group 76",6
+"ET CINS Active Threat Intelligence Poor Reputation IP group 106",6
+"ET CINS Active Threat Intelligence Poor Reputation IP group 74",6
+"ET CINS Active Threat Intelligence Poor Reputation IP group 63",5
+"ET CINS Active Threat Intelligence Poor Reputation IP group 209",5
+"GPL DNS SPOOF query response with TTL of 1 min. and no authority",5
+"ET CINS Active Threat Intelligence Poor Reputation IP group 283",5
+"ET CINS Active Threat Intelligence Poor Reputation IP group 275",5
+"ET CINS Active Threat Intelligence Poor Reputation IP group 211",5
+"ET CINS Active Threat Intelligence Poor Reputation IP group 78",5
+"ET CINS Active Threat Intelligence Poor Reputation IP group 25",5
+"ET EXPLOIT Netgear DGN Remote Command Execution",5
+"ET CINS Active Threat Intelligence Poor Reputation IP group 261",5
+"ET CINS Active Threat Intelligence Poor Reputation IP group 54",5
+"ET CINS Active Threat Intelligence Poor Reputation IP group 6",4
+"GPL ICMP Destination Unreachable Port Unreachable",4
+"ET CINS Active Threat Intelligence Poor Reputation IP group 170",4
+"ET CINS Active Threat Intelligence Poor Reputation IP group 31",4
+"ET CINS Active Threat Intelligence Poor Reputation IP group 164",4
+"SURICATA HTTP Unexpected Request body",4
+"ET INFO FTP Login Successful",4
+"SURICATA STREAM ESTABLISHED SYNACK resend",4
+"ET SCAN NMAP -sA (1)",4
+"GPL SNMP trap tcp",3
+"ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 58",3
+"ET EXPLOIT Apache HTTP Server - Path Traversal Attempt (CVE-2021-42013) M2",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 228",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 73",3
+"SURICATA HTTP Request unrecognized authorization method",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 163",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 274",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 182",3
+"SURICATA SMB malformed request dialects",3
+"SURICATA SMTP duplicate fields",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 161",3
+"SURICATA SMTP no server welcome message",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 105",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 98",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 121",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 91",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 88",3
+"SURICATA STREAM CLOSEWAIT ACK out of window",3
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 22",3
+"ET EXPLOIT Realtek eCos RSDK/MSDK Stack-based Buffer Overflow Attempt Inbound (CVE-2022-27255)",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 265",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 264",3
+"ET TOR Known Tor Exit Node Traffic group 58",3
+"ET EXPLOIT Apache HTTP Server 2.4.49 - Path Traversal Attempt (CVE-2021-41773) M2",3
+"ET CINS Active Threat Intelligence Poor Reputation IP group 59",3
+"GPL RPC xdmcp info query",3
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 27",3
+"ET SCAN External Host Probing for ChromeCast Devices",2
+"SURICATA TLS handshake invalid length",2
+"ET CINS Active Threat Intelligence Poor Reputation IP group 53",2
+"ET CINS Active Threat Intelligence Poor Reputation IP group 174",2
+"ET CINS Active Threat Intelligence Poor Reputation IP group 172",2
+"ET CINS Active Threat Intelligence Poor Reputation IP group 10",2
+"ET CINS Active Threat Intelligence Poor Reputation IP group 86",2
+"ET INFO External IP Address Lookup Domain (ipify .org) in TLS SNI",2
+"ET CINS Active Threat Intelligence Poor Reputation IP group 251",2
+"ET CINS Active Threat Intelligence Poor Reputation IP group 185",2
+"ET CINS Active Threat Intelligence Poor Reputation IP group 298",2
+"ET DROP Spamhaus DROP Listed Traffic Inbound group 8",2
+"ET CINS Active Threat Intelligence Poor Reputation IP group 85",1
+"ET CINS Active Threat Intelligence Poor Reputation IP group 18",1
+"ET CINS Active Threat Intelligence Poor Reputation IP group 56",1
+"ET CINS Active Threat Intelligence Poor Reputation IP group 158",1
+"ET CINS Active Threat Intelligence Poor Reputation IP group 127",1
+"SURICATA STREAM FIN1 invalid ack",1
+"SURICATA STREAM FIN1 FIN with wrong seq",1

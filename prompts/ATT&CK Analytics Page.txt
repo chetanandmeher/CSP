@@ -1,0 +1,53 @@
+Create a MITRE ATT&CK analytics dashboard page for a Cyber Threat Intelligence platform.
+
+Page Title:
+“MITRE ATT&CK Analytics”
+
+Theme:
+
+* Dark enterprise cybersecurity dashboard
+* ATT&CK matrix inspired visuals
+* Blue and cyan neon highlights
+* Advanced SOC analytics environment
+
+Main Sections:
+
+1. ATT&CK Techniques Analytics
+
+* Ranked techniques table
+* Horizontal bar charts
+* Heatmaps
+* Top techniques visualization
+
+2. ATT&CK Tactics Analytics
+
+* Donut chart
+* Kill chain visualization
+* Tactic frequency analytics
+* Tactical distribution panels
+
+3. ATT&CK Matrix Visualization
+
+* Interactive ATT&CK matrix style layout
+* Highlighted active techniques
+* Threat coverage mapping
+
+4. Intelligence Insights Panel
+   Display:
+
+* Most active tactic
+* Most used technique
+* Threat behavior summary
+* Attack progression indicators
+
+Design Requirements:
+
+* futuristic intelligence platform look
+* holographic analytics panels
+* glowing charts
+* enterprise-grade data visualization
+* premium SOC analyst environment
+* cyber warfare visualization style
+
+Output:
+Generate a modern enterprise ATT&CK intelligence analytics webpage screenshot.

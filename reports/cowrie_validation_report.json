@@ -1,0 +1,25 @@
+{
+  "total_rows": 1117649,
+  "null_percentages": {
+    "id": 0.0,
+    "raw_event_id": 0.0,
+    "timestamp": 0.0,
+    "src_ip": 0.0,
+    "dst_ip": 78.27,
+    "src_port": 78.31,
+    "dst_port": 78.27,
+    "protocol": 78.35,
+    "eventid": 0.0,
+    "session": 0.0,
+    "message": 0.0,
+    "sensor": 0.0,
+    "created_at": 0.0
+  },
+  "duplicate_rows": 0,
+  "missing_required": {
+    "timestamp": 0,
+    "src_ip": 0,
+    "eventid": 0
+  },
+  "timestamp_dtype": "datetime64[us, UTC]"
+}

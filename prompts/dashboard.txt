@@ -1,0 +1,63 @@
+Create a futuristic cybersecurity SOC dashboard homepage UI for a Cyber Threat Intelligence Platform.
+
+Page Title:
+“Cyber Threat Intelligence Dashboard”
+
+Design Style:
+
+* Dark mode
+* Blue and cyan neon accents
+* Glassmorphism cards
+* Enterprise SOC environment
+* Real-time intelligence center
+* Inspired by Splunk, Microsoft Sentinel, CrowdStrike Falcon, IBM QRadar
+
+Layout:
+
+Top Navigation:
+
+* Dashboard
+* Attackers
+* ATT&CK Analytics
+* Threat Monitoring
+* Vulnerabilities
+* Settings
+
+Top Summary Cards:
+
+* Total Attackers
+* Critical Attackers
+* Total Suricata Events
+* Total Cowrie Events
+* Top ATT&CK Tactic
+
+Center Layout:
+
+* Critical Attackers table
+* Threat severity indicators
+* Risk score bars
+* Live telemetry widgets
+
+Right Panel:
+
+* ATT&CK Techniques Bar Chart
+* ATT&CK Tactics Donut Chart
+
+Bottom Section:
+
+* Recent threat activity timeline
+* Threat feed ticker
+* Active alerts stream
+
+Visual Requirements:
+
+* glowing blue borders
+* holographic widgets
+* cyber-grid background
+* modern enterprise analytics design
+* widescreen 16:9 layout
+* ultra-clean typography
+* premium security operations center appearance
+
+Output:
+Generate a realistic full webpage screenshot UI mockup.

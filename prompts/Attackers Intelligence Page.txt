@@ -1,0 +1,57 @@
+Create a modern attacker intelligence analysis page for a cybersecurity SOC platform.
+
+Page Title:
+“Attacker Intelligence”
+
+Design:
+
+* Dark cybersecurity UI
+* Blue/cyan enterprise styling
+* Glassmorphism panels
+* Threat hunting workstation aesthetics
+
+Main Features:
+
+1. Search & Filters Panel
+
+* Search by IP
+* Threat level filter
+* ATT&CK tactic filter
+* Date range selector
+
+2. Main Attackers Table
+   Columns:
+
+* Source IP
+* Risk Score
+* Threat Level
+* Total Events
+* ATT&CK Techniques
+* ATT&CK Tactics
+* Telemetry Sources
+
+3. Threat Intelligence Side Panel
+   Display:
+
+* Top countries
+* Top attack sources
+* Risk distribution
+* Threat heatmap
+
+4. Analytics Widgets
+
+* Risk score histogram
+* Threat distribution pie chart
+* Active attacker trends
+
+Design Requirements:
+
+* glowing severity badges
+* red/orange/yellow critical indicators
+* modern SOC analyst dashboard appearance
+* cyber intelligence environment
+* polished enterprise design
+* widescreen layout
+
+Output:
+Generate a realistic webpage UI screenshot for enterprise cyber threat analysis.

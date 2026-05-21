@@ -1,0 +1,57 @@
+Create a real-time cyber threat monitoring dashboard for a Security Operations Center platform.
+
+Page Title:
+“Real-Time Threat Monitoring”
+
+Theme:
+
+* Futuristic SOC war room
+* Dark cyber defense environment
+* Blue/cyan/red alert accents
+* Live threat intelligence atmosphere
+
+Layout:
+
+1. Live Threat Feed
+
+* Incoming attacker IPs
+* Real-time telemetry stream
+* Alert feed
+* Threat severity indicators
+
+2. Active Threat Map
+
+* Global cyber attack map
+* Threat origins visualization
+* Live attack connections
+
+3. Real-Time Metrics
+
+* Active attackers
+* Threat volume
+* Detection rate
+* Current critical alerts
+
+4. Live ATT&CK Activity
+
+* Active tactics
+* Active techniques
+* Ongoing exploitation attempts
+
+5. Alert Queue
+
+* High-risk attacker alerts
+* Critical threat notifications
+* Incident queue panel
+
+Visual Requirements:
+
+* animated cyber telemetry
+* glowing alert panels
+* red critical warning effects
+* real-time intelligence appearance
+* futuristic cyber defense center styling
+* ultra-modern SOC visuals
+
+Output:
+Generate a realistic enterprise cyber defense monitoring webpage screenshot.

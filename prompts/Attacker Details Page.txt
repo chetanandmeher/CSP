@@ -1,0 +1,61 @@
+Create a detailed attacker profile intelligence page for a Cyber Threat Intelligence SOC dashboard.
+
+Page Title:
+“Attacker Intelligence Profile”
+
+Theme:
+
+* Advanced cyber threat hunting interface
+* Dark mode
+* Blue holographic UI
+* Premium enterprise SOC appearance
+
+Layout:
+
+Top Section:
+
+* Source IP display
+* Threat Level badge
+* Risk Score indicator
+* Last activity timestamp
+
+Main Intelligence Panels:
+
+1. ATT&CK Intelligence
+
+* Techniques used
+* ATT&CK tactic mapping
+* Kill chain visualization
+* MITRE ATT&CK inspired styling
+
+2. Telemetry Analytics
+
+* Suricata event count
+* Cowrie event count
+* Behavioral statistics
+* Threat frequency timeline
+
+3. Threat Activity Timeline
+
+* Reconnaissance activity
+* Credential access attempts
+* Exploitation attempts
+* Lateral movement activity
+
+4. Intelligence Summary Card
+
+* Threat classification
+* Confidence score
+* Behavioral summary
+* Adversary sophistication level
+
+Visual Style:
+
+* cyber warfare command center
+* glowing intelligence panels
+* animated threat graphs
+* blue/cyan holographic effects
+* premium analyst workstation look
+
+Output:
+Generate a highly detailed enterprise cybersecurity attacker profile webpage screenshot.
