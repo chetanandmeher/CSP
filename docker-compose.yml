@@ -5,10 +5,12 @@ services:
     image: postgres:16
     container_name: threat_intel_db
     restart: unless-stopped
+    env_file:
+      - .env
     environment:
-      POSTGRES_USER: threatuser
-      POSTGRES_PASSWORD: threatpass
-      POSTGRES_DB: threat_intel
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
     ports:
       - "5432:5432"
     volumes:

@@ -865,6 +865,63 @@ function App() {
                                       {' '}
                                       {event.technique_name || 'Unknown'}
                                     </div>
+                                    
+                                    {event.technique_description && (
+
+                                      <div
+                                        style={{
+                                          marginTop: '12px',
+                                          padding: '12px',
+                                          borderRadius: '10px',
+                                          background:
+                                            'rgba(0,229,255,0.05)',
+                                          border:
+                                            '1px solid rgba(0,229,255,0.12)'
+                                        }}
+                                      >
+
+                                        <div
+                                          style={{
+                                            color: '#00e5ff',
+                                            fontWeight: 700,
+                                            marginBottom: '8px'
+                                          }}
+                                        >
+                                          MITRE ATT&CK Intelligence
+                                        </div>
+
+                                        <div
+                                          style={{
+                                            color: '#c7d5e0',
+                                            lineHeight: 1.7,
+                                            fontSize: '13px'
+                                          }}
+                                        >
+                                          {event.technique_description}
+                                        </div>
+
+                                        {event.technique_url && (
+
+                                          <a
+                                            href={event.technique_url}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            style={{
+                                              display: 'inline-block',
+                                              marginTop: '12px',
+                                              color: '#00e5ff',
+                                              textDecoration: 'none',
+                                              fontWeight: 700
+                                            }}
+                                          >
+                                            View MITRE ATT&CK →
+                                          </a>
+
+                                        )}
+
+                                      </div>
+
+                                    )}
 
                                     {event.cve_details && (
 

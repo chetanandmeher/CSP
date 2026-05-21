@@ -1,4 +1,9 @@
+import sys
+import os
 import psycopg2
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from config import DATABASE_URL
 
 def print_columns(cur, table):
     cur.execute(f"SELECT column_name, data_type FROM information_schema.columns WHERE table_name = '{table}'")
@@ -8,7 +13,7 @@ def print_columns(cur, table):
 
 def main():
     try:
-        conn = psycopg2.connect("postgresql://threatuser:threatpass@localhost:5432/threat_intel")
+        conn = psycopg2.connect(DATABASE_URL)
         cur = conn.cursor()
         
         print_columns(cur, "cve_records")

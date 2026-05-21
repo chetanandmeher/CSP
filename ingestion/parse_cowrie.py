@@ -1,3 +1,5 @@
+import sys
+import os
 import psycopg2
 from psycopg2.extras import execute_values
 from tqdm import tqdm
@@ -5,13 +7,8 @@ import pandas as pd
 import json
 from pathlib import Path
 
-DB_CONFIG = {
-    "host": "localhost",
-    "database": "threat_intel",
-    "user": "threatuser",
-    "password": "threatpass",
-    "port": 5432
-}
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from config import DB_CONFIG
 
 FETCH_SIZE = 5000
 INSERT_BATCH_SIZE = 1000

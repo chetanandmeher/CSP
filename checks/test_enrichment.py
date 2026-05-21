@@ -1,8 +1,13 @@
+import sys
+import os
 import psycopg2
 import re
 
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from config import DATABASE_URL
+
 def main():
-    conn = psycopg2.connect("postgresql://threatuser:threatpass@localhost:5432/threat_intel")
+    conn = psycopg2.connect(DATABASE_URL)
     cur = conn.cursor()
     
     # Let's find some suricata alerts containing 'CVE'

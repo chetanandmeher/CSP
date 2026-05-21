@@ -209,7 +209,7 @@ export const apiService = {
    */
   async getAttackerEvents(srcIp: string, limit = 50): Promise<{ count: number; results: ForensicEvent[] }> {
     return fetchWithFallback<{ count: number; results: ForensicEvent[] }>(
-      `${API_BASE}/attackers/${encodeURIComponent(srcIp)}/events?limit=${limit}`,
+      `${API_BASE}/attackers/events?src_ip=${encodeURIComponent(srcIp)}&limit=${limit}`,
       generateMockEvents(srcIp)
     );
   }

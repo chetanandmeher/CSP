@@ -13,6 +13,7 @@ Requirements:
 """
 
 import os
+import sys
 import json
 import argparse
 import logging
@@ -22,13 +23,8 @@ from datetime import datetime
 import psycopg2
 
 # ── Config ────────────────────────────────────────────────────────────────────
-DB_CONFIG = {
-    "host":     os.getenv("DB_HOST",     "localhost"),
-    "port":     int(os.getenv("DB_PORT", "5432")),
-    "dbname":   os.getenv("DB_NAME",     "threat_intel"),
-    "user":     os.getenv("DB_USER",     "threatuser"),
-    "password": os.getenv("DB_PASSWORD", "threatpass"),
-}
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from config import DB_CONFIG
 
 logging.basicConfig(
     level=logging.INFO,

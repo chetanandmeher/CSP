@@ -1,4 +1,5 @@
 import os
+import sys
 import math
 import orjson
 import psycopg2
@@ -6,13 +7,8 @@ from multiprocessing import Pool, cpu_count
 from psycopg2.extras import execute_values, Json
 from tqdm import tqdm
 
-DB_CONFIG = {
-    "host": "localhost",
-    "database": "threat_intel",
-    "user": "threatuser",
-    "password": "threatpass",
-    "port": 5432
-}
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from config import DB_CONFIG
 
 BATCH_SIZE = 10000
 MAX_WORKERS = 4
