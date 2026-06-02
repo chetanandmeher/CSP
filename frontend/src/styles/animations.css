@@ -1,0 +1,151 @@
+/* Scanning Grid Line Overlay */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, transparent 0%, rgba(34, 211, 238, 0.03) 50%, transparent 100%);
+  background-size: 100% 400px;
+  animation: scan-line 8s linear infinite;
+  pointer-events: none;
+  z-index: 100;
+}
+
+@keyframes scan-line {
+  0% { background-position: 0 -400px; }
+  100% { background-position: 0 100vh; }
+}
+
+/* Glass Panel Breathing Glow Override */
+.glass-panel {
+  background: rgba(12, 19, 36, 0.7) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(34, 211, 238, 0.1) !important;
+  transition: all 0.3s ease !important;
+  position: relative;
+  overflow: hidden;
+  animation: border-breathe 4s ease-in-out infinite alternate;
+}
+
+@keyframes border-breathe {
+  from { 
+    border-color: rgba(34, 211, 238, 0.1); 
+    box-shadow: 0 0 5px rgba(34, 211, 238, 0.05); 
+  }
+  to { 
+    border-color: rgba(34, 211, 238, 0.3); 
+    box-shadow: 0 0 15px rgba(34, 211, 238, 0.15); 
+  }
+}
+
+/* Mouse Glow Track */
+.mouse-glow {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(34, 211, 238, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.glass-panel:hover .mouse-glow {
+  opacity: 1;
+}
+
+/* Glitch Animation */
+.glitch-text {
+  animation: glitch 3s infinite;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  1% { transform: translate(-2px, 1px); color: var(--color-primary); }
+  2% { transform: translate(2px, -1px); color: var(--color-danger); }
+  3% { transform: translate(0); }
+  100% { transform: translate(0); }
+}
+
+/* Neon Link Expansion */
+.nav-link {
+  position: relative;
+  text-decoration: none;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--color-primary);
+  box-shadow: 0 0 10px var(--color-primary);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: translateX(-50%);
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Progress Bar Shimmer */
+.shimmer-bar {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+/* Badge Pulse */
+.badge-pulse {
+  animation: badge-glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes badge-glow {
+  from { box-shadow: 0 0 2px var(--color-danger); }
+  to { box-shadow: 0 0 10px var(--color-danger); transform: scale(1.02); }
+}
+
+/* Continuous Telemetry Ticker */
+.ticker-scroll {
+  display: flex;
+  animation: ticker 40s linear infinite;
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.pulse-red-glow {
+  animation: red-pulse 2s infinite alternate;
+}
+
+@keyframes red-pulse {
+  from { box-shadow: 0 0 4px rgba(244, 63, 94, 0.4); }
+  to { box-shadow: 0 0 16px rgba(244, 63, 94, 0.8); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.5); opacity: 0.8; }
+  100% { transform: scale(2.2); opacity: 0; }
+}

@@ -11,6 +11,26 @@ import {
   AreaChart, Area
 } from 'recharts';
 
+interface CustomTooltipProps {
+  active?: boolean;
+  payload?: Array<{ value: number }>;
+  label?: string;
+}
+
+const CustomTooltip: React.FC<CustomTooltipProps> = ({ active, payload, label }) => {
+  if (active && payload && payload.length) {
+    return (
+      <div style={{ background: 'var(--surface-black)', border: 'var(--border-glow)', padding: '12px', fontFamily: 'var(--font-mono)', fontSize: '11px', boxShadow: 'var(--shadow-neon)' }}>
+        <p style={{ margin: 0, color: '#ffffff', fontWeight: 700 }}>{label}</p>
+        <p style={{ margin: '4px 0 0', color: 'var(--color-primary)' }}>
+          Exploits: <span style={{ color: '#ffffff' }}>{payload[0].value.toLocaleString()}</span>
+        </p>
+      </div>
+    );
+  }
+  return null;
+};
+
 export const DashboardView: React.FC<{
   onSelectAttacker: (ip: string) => void;
 }> = ({ onSelectAttacker }) => {
@@ -40,6 +60,7 @@ export const DashboardView: React.FC<{
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     loadData();
   }, []);
 
@@ -66,21 +87,6 @@ export const DashboardView: React.FC<{
 
   // Combined events count
   const totalEvents = summary ? summary.total_suricata_events + summary.total_cowrie_events : 0;
-
-  // Chart Gradient definitions
-  const CustomTooltip = ({ active, payload, label }: any) => {
-    if (active && payload && payload.length) {
-      return (
-        <div style={{ background: 'var(--surface-black)', border: 'var(--border-glow)', padding: '12px', fontFamily: 'var(--font-mono)', fontSize: '11px', boxShadow: 'var(--shadow-neon)' }}>
-          <p style={{ margin: 0, color: '#ffffff', fontWeight: 700 }}>{label}</p>
-          <p style={{ margin: '4px 0 0', color: 'var(--color-primary)' }}>
-            Exploits: <span style={{ color: '#ffffff' }}>{payload[0].value.toLocaleString()}</span>
-          </p>
-        </div>
-      );
-    }
-    return null;
-  };
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-lg)' }}>

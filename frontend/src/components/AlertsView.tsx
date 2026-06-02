@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { apiService } from '../services/api';
 import type { Attacker/*, ForensicEvent*/ } from '../services/api';
 import { 
@@ -26,6 +26,23 @@ export const AlertsView: React.FC = () => {
   const [isolatedIps, setIsolatedIps] = useState<Record<string, boolean>>({});
   const [dumpingPcap, setDumpingPcap] = useState<Record<string, boolean>>({});
 
+  const chartData = useMemo(() => {
+    if (!selectedAttacker) return [];
+    const seed = selectedAttacker.risk_score;
+    const pseudoRandom = (step: number) => {
+      const x = Math.sin(seed + step) * 10000;
+      return x - Math.floor(x);
+    };
+    return [
+      { time: '10s', load: Math.floor(pseudoRandom(1) * 40) + seed },
+      { time: '20s', load: Math.floor(pseudoRandom(2) * 30) + seed },
+      { time: '30s', load: Math.floor(pseudoRandom(3) * 50) + seed },
+      { time: '40s', load: Math.floor(pseudoRandom(4) * 20) + seed },
+      { time: '50s', load: Math.floor(pseudoRandom(5) * 40) + seed },
+      { time: '60s', load: Math.floor(pseudoRandom(6) * 60) + seed }
+    ];
+  }, [selectedAttacker]);
+
   const loadAttackers = async () => {
     try {
       const data = await apiService.getTopAttackers(30);
@@ -41,7 +58,9 @@ export const AlertsView: React.FC = () => {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     loadAttackers();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -292,14 +311,7 @@ export const AlertsView: React.FC = () => {
             <div style={{ height: '140px', width: '100%', marginTop: '12px' }}>
               <ResponsiveContainer width="100%" height="100%">
                 <AreaChart 
-                  data={[
-                    { time: '10s', load: Math.floor(Math.random() * 40) + selectedAttacker.risk_score },
-                    { time: '20s', load: Math.floor(Math.random() * 30) + selectedAttacker.risk_score },
-                    { time: '30s', load: Math.floor(Math.random() * 50) + selectedAttacker.risk_score },
-                    { time: '40s', load: Math.floor(Math.random() * 20) + selectedAttacker.risk_score },
-                    { time: '50s', load: Math.floor(Math.random() * 40) + selectedAttacker.risk_score },
-                    { time: '60s', load: Math.floor(Math.random() * 60) + selectedAttacker.risk_score }
-                  ]}
+                  data={chartData}
                   margin={{ top: 5, right: 5, left: -40, bottom: 5 }}
                 >
                   <defs>

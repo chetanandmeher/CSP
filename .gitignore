@@ -167,6 +167,7 @@ cvelistV5/
 cowrie/
 suricata/
 data/
+!frontend/src/data/
 logs/
 postgres_data/
 

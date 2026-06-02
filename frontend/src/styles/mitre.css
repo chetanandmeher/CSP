@@ -1,0 +1,110 @@
+/* MITRE ATT&CK tactical cell styling */
+.mitre-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--spacing-sm);
+  width: 100%;
+}
+
+.mitre-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.mitre-header {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 700;
+  color: rgba(226, 232, 240, 0.4);
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 4px;
+  word-break: break-word;
+  height: 38px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.mitre-cell {
+  background: rgba(12, 19, 36, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  padding: 8px 10px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: var(--transition-fast);
+  min-height: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mitre-cell:hover {
+  background: rgba(34, 211, 238, 0.05);
+  border-color: rgba(34, 211, 238, 0.3);
+  box-shadow: 0 0 10px rgba(34, 211, 238, 0.1);
+}
+
+.mitre-cell.heat-critical {
+  background: rgba(244, 63, 94, 0.25);
+  border-color: rgba(244, 63, 94, 0.4);
+}
+
+.mitre-cell.heat-critical:hover {
+  background: rgba(244, 63, 94, 0.35);
+  border-color: rgba(244, 63, 94, 0.6);
+  box-shadow: var(--shadow-danger);
+}
+
+.mitre-cell.heat-high {
+  background: rgba(245, 158, 11, 0.2);
+  border-color: rgba(245, 158, 11, 0.35);
+}
+
+.mitre-cell.heat-high:hover {
+  background: rgba(245, 158, 11, 0.3);
+  border-color: rgba(245, 158, 11, 0.5);
+}
+
+.mitre-cell.heat-medium {
+  background: rgba(59, 130, 246, 0.15);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.mitre-cell.heat-medium:hover {
+  background: rgba(59, 130, 246, 0.25);
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+.mitre-cell-title {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.2;
+}
+
+.mitre-cell-id {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  color: rgba(226, 232, 240, 0.3);
+}
+
+.mitre-cell-count {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  align-self: flex-end;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .mitre-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .mitre-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
